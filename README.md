@@ -1,25 +1,25 @@
-import java.util.HashSet; 
+package scenaio1;
 
-public class HashSetExample {
-    public static void main(String[] args) {
-        // Create a HashSet of integers
-        HashSet<Integer> myHashSet = new HashSet<>();
-
-        // Add elements to the HashSet
-        myHashSet.add(5);
-        myHashSet.add(10);
-        myHashSet.add(15);
-
-        // Check if an element is in the HashSet
-        boolean containsElement = myHashSet.contains(10);
-        System.out.println("HashSet contains 10: " + containsElement);
-
-        // Remove an element from the HashSet
-        myHashSet.remove(10);
-
-        // Iterate through the HashSet
-        for (Integer element : myHashSet) {
-            System.out.println("Element: " + element);
-        }
-    }
-}
+import java.util.Scanner;
+ 
+ public class Scenaio1 {
+     
+     
+     public static void main(String[] args) {
+     
+     Scanner sc = new Scanner(System.in);
+     
+     System.out.println("Enter your 1st Number");
+     int a = sc.nextInt();
+     System.out.println("Enter your 2nd Number");
+     int b = sc.nextInt();
+     
+     int c;
+     c = a+b;
+     
+     System.out.println("Your 1st number is " +a);
+     System.out.println("Enter your 2nd number is " +b);
+     System.out.println("Total amount is" +c);
+     
+ }
+ }
